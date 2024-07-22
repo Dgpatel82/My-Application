@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recycler);
 
         ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
-        progressDialog.setMessage("Generating...");
+        progressDialog.setMessage("Generating Photoes...");
 
         OnLoaded onLoaded = new OnLoaded() {
             @Override
